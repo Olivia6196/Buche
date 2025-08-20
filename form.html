@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete HTML form</title>
+</head>
+<body>
+    <h2>HTML Form Creation</h2>
+    <form action="mailto:emenikeifebuche6@gmail.com" method="post">
+        <fieldset>
+            <legend>Personal Information</legend><br>
+            <label for="text">Text: </label>
+            <input type="text" id="text" maxlength="23" name="text" required>
+            <br><br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" minlength="8" name="password" required>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="number">Number: </label>
+            <input type="number" id="number" name="number" required>
+            <br><br>
+            <label for="Phone">Telephone: </label>
+            <input type="tel" id="Phone" name="Phone" required>
+            <br><br>
+            <label for="web">Website: </label>
+            <input type="text" id="web" name="web" required>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Dates & Time</legend><br>
+            <label for="Date">Date: </label>
+            <input type="date" id="Date" name="Date" required>
+            <br><br>
+            <label for="datetime">Datetime-local: </label>
+            <input type="datetime-local" id="datetime" name="datetime" required>
+            <br><br>
+            <label for="Month">Month: </label>
+            <input type="month" id="Month" name="Month" required>
+            <br><br>
+            <label for="Week">Week:</label>
+            <input type="week" id="Week" name="Week" required>
+            <br><br>
+            <label for="time">Time: </label>
+            <input type="time" id="time" name="time" required>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Choices</legend><br>
+            <label>Gender: </label>
+            <br><br>
+            <input type="radio" id="male" name="gender" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" required>
+            <label for="female">Female</label>
+            <br><br>
+            <label>Skills (select all that apply): </label>
+            <br><br>
+            <input type="checkbox" id="HTML" name="HTML" required>
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="CSS" name="CSS" required>
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="JavaScript" name="JavaScript" required>
+            <label for="JavaScript">JavaScript</label>
+            <br><br>
+            <label for="color">Favorite Color: </label>
+            <input type="color" id="color" name="color" required>
+            <br><br>
+            <label for="range">Skill Level (0-100): </label>
+            <input type="range" id="range" name="range" required>
+            <br><br>
+            <label for="country">Select Country: </label>
+            <select form="country" name="country" required>
+                <option>--Choose--</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Germany">Germany</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Uploads & Misc</legend><br>
+            <label for="file">Upload File: </label>
+            <input type="file" id="file" name="file" required>
+            <br><br>
+            <label for="Search">Search: </label>
+            <input type="text" id="search" name="search" required>
+            <br><br>
+            <label>Hidden Input:</label>
+            <br><br>
+            <label >Message:</label><br>
+            <textarea rows="5" cols="40" name="Message" id="Message"></textarea>
+        </fieldset><br>
+        <button>Submit Form</button>
+    </form>
+</body>
+</html>

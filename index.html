@@ -134,5 +134,60 @@ relative and absolute file path-->
         <li><a href="./Pages/favourite.html">Favourite</a></li>
     </ul>
 </nav>
+
+
+<form action="mailto:emenikeifebuche6@gmail.com" method="post">
+        <br>
+        <div>
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" minlength="8" maxlength="15" required>
+        </div>
+        <br>
+        <div>
+        <label for="Password">Password</label>
+        <input type="password" id="Password" minlength="10" required>
+        </div>
+        <br>
+        <div>
+        <label for="Email">Email</label>:</label>
+        <input type="email" id="Email" required>
+        </div>
+        <br>
+        <div>
+        <label for="Phone No.">Phone No.</label>:</label>
+        <input type="tel" id="Phone No."   placeholder="810-412-6196" pattern="(0-9){3}-(0-9){3}-(0-9){4}"required>
+        </div>
+        <br>
+        <div>
+        <label for="Date of Birth">Date of Birth</label>:</label>
+        <input type="date" id="ate of Birth" required>
+        </div>
+         <br>
+         <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" value="female" id="female">
+         </div>
+         <br>
+         <div>
+            <label for="country">Country:</label>
+            <select id="country">
+                <option>Select country...</option>
+                <option selected>Nigeria</option>
+                <option>USA</option>
+                <option>Brazil</option>
+                <option>UK</option>
+            </select>
+         </div>
+         <br>
+         <div>
+        <input type="reset"><br>
+        </div>
+        <br>
+        <div>
+        <button>Submit</button>
+        </div>
+    </form>
 </body>
 </html>
