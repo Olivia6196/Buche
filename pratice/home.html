@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Management System</title>
+    <style>
+        body{
+            background-color: rgb(251, 174, 187);
+        }
+        nav{
+            background-color: rgb(4, 4, 67);
+            padding: 10px;
+        }
+        nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul, li, a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        nav ul li a:hover{
+            color: yellow;
+        }
+        p{
+            font-size: 20px;
+        }
+        ol li{
+            color:#000000;
+            font-size: 20px;
+            font-weight: lighter;
+        }
+        button{
+            font-size: 22px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./register.html">Register</a></li>
+            <li><a href="./view.html">View Students</a></li>
+        </ul>
+    </nav>
+   <h1>Welcome to Student Information System</h1> 
+   <p>This platform helps you register students, store their details and view the record in a simple and organised way.<br> It's designed for schools, departments and administrators who wants to manage students data efficiently.</p>
+   <h2>Steps to follow:</h2>
+   <ol>
+      <li>Go to the "Register" page and fill out the student details form.</li>
+      <li>Submit form to save the record.</li>
+      <li>visit the "view Students" page to see students database.</li>
+   </ol>
+   <br>
+   <br>
+   <button onclick="location.href='register.html'">Get Started</button>
+   </body>
+</html>
